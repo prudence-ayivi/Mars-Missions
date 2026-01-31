@@ -1,0 +1,326 @@
+[
+{
+  "id": "mro_nasa",
+  "mission_name": "Mars Reconnaissance Orbiter",
+  "mission_type": "orbital",
+  "agency": {
+    "name": "NASA",
+    "country": "United States",
+    "flag": "US"
+  },
+  "launch": {
+    "launch_date": "2005-08-12",
+    "launch_vehicle": "Atlas V",
+    "launch_site": "Cape Canaveral"
+  },
+  "arrival": {
+    "arrival_date": "2006-03-10",
+    "arrival_type": "orbit",
+    "landing_site": null
+  },
+  "status": {
+    "state": "active",
+    "reason": "Operational"
+  },
+  "duration": {
+    "start": "2006-03-10",
+    "end": null,
+    "total_days": 6800
+  },
+  "operations": [
+    "High-resolution surface imaging",
+    "Water and mineral detection",
+    "Relay for surface missions"
+  ],
+  "summary": "MRO provides the most detailed images of Mars surface ever taken.",
+  "images": [
+    "https://mars.nasa.gov/mro/images/1.jpg",
+    "https://mars.nasa.gov/mro/images/2.jpg"
+  ],
+  "space_geometry": {
+    "orbital": {
+      "semi_major_axis_km": 3790,
+      "eccentricity": 0.01,
+      "inclination_deg": 93,
+      "period_minutes": 112
+    },
+    "surface": null
+  }
+},
+{
+  "id": "mars3_ussr",
+  "mission_name": "Mars 3",
+  "mission_type": "lander",
+  "agency": {
+    "name": "Soviet Space Program",
+    "country": "USSR",
+    "flag": "SU"
+  },
+  "launch": {
+    "launch_date": "1971-05-28",
+    "launch_vehicle": "Proton-K",
+    "launch_site": "Baikonur"
+  },
+  "arrival": {
+    "arrival_date": "1971-12-02",
+    "arrival_type": "landing",
+    "landing_site": {
+      "name": "Ptolemaeus Crater",
+      "latitude": -45,
+      "longitude": 158
+    }
+  },
+  "status": {
+    "state": "failed",
+    "reason": "Communication lost seconds after landing"
+  },
+  "duration": {
+    "start": "1971-12-02",
+    "end": "1971-12-02",
+    "total_days": 0
+  },
+  "operations": [
+    "Attempted first soft landing on Mars"
+  ],
+  "summary": "Mars 3 was the first spacecraft to land on Mars but failed shortly after.",
+  "images": [
+    "https://example.com/mars3_1.jpg"
+  ],
+  "space_geometry": {
+    "orbital": null,
+    "surface": {
+      "path": []
+    }
+  }
+}, 
+{
+  "id": "tianwen1_china",
+  "mission_name": "Tianwen-1",
+  "mission_type": "orbital",
+  "agency": {
+    "name": "CNSA",
+    "country": "China",
+    "flag": "CN"
+  },
+  "launch": {
+    "launch_date": "2020-07-23",
+    "launch_vehicle": "Long March 5",
+    "launch_site": "Wenchang"
+  },
+  "arrival": {
+    "arrival_date": "2021-02-10",
+    "arrival_type": "orbit",
+    "landing_site": {
+      "name": "Utopia Planitia",
+      "latitude": 25.1,
+      "longitude": 109.9
+    }
+  },
+  "status": {
+    "state": "completed",
+    "reason": "Energy shortage"
+  },
+  "duration": {
+    "start": "2021-02-10",
+    "end": "2022-05-20",
+    "total_days": 465
+  },
+  "operations": [
+    "Orbital reconnaissance",
+    "Surface exploration with Zhurong rover"
+  ],
+  "summary": "China's first independent Mars mission.",
+  "images": [
+    "https://example.com/tianwen1.jpg"
+  ],
+  "space_geometry": {
+    "orbital": {
+      "semi_major_axis_km": 4300,
+      "eccentricity": 0.02,
+      "inclination_deg": 87,
+      "period_minutes": 118
+    },
+    "surface": {
+      "path": [
+        { "lat": 25.1, "lon": 109.9 },
+        { "lat": 25.2, "lon": 110.1 }
+      ]
+    }
+  }
+}, 
+{
+    "id": "mariner9_usa",
+    "mission_name": "Mariner 9",
+    "mission_type": "orbital",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "1971-05-30", "launch_vehicle": "Atlas-Centaur", "launch_site": "Cape Canaveral" },
+    "arrival": { "arrival_date": "1971-11-14", "arrival_type": "orbit", "landing_site": null },
+    "status": { "state": "completed", "reason": "Mission completed successfully" },
+    "duration": { "start": "1971-11-14", "end": "1972-10-27", "total_days": 348 },
+    "operations": ["First spacecraft to orbit another planet", "Global mapping of Mars"],
+    "summary": "Mariner 9 revealed Mars as a dynamic planet with volcanoes, canyons and weather.",
+    "images": ["https://example.com/mariner9_1.jpg"],
+    "space_geometry": { "orbital": null, "surface": null }
+  },
+  {
+    "id": "viking1_usa",
+    "mission_name": "Viking 1",
+    "mission_type": "lander",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "1975-08-20", "launch_vehicle": "Titan IIIE", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "1976-07-20",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Chryse Planitia", "latitude": 22.48, "longitude": -49.97 }
+    },
+    "status": { "state": "completed", "reason": "Mission completed" },
+    "duration": { "start": "1976-07-20", "end": "1982-11-13", "total_days": 2314 },
+    "operations": ["Biological experiments", "Meteorology", "Surface imaging"],
+    "summary": "First successful lander on Mars providing long-term surface science.",
+    "images": ["https://example.com/viking1.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "pathfinder_usa",
+    "mission_name": "Mars Pathfinder / Sojourner",
+    "mission_type": "rover",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "1996-12-04", "launch_vehicle": "Delta II", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "1997-07-04",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Ares Vallis", "latitude": 19.13, "longitude": 33.22 }
+    },
+    "status": { "state": "completed", "reason": "Mission completed" },
+    "duration": { "start": "1997-07-04", "end": "1997-09-27", "total_days": 83 },
+    "operations": ["Technology demonstration", "Rover mobility test"],
+    "summary": "First rover mission on Mars demonstrating low-cost exploration.",
+    "images": ["https://example.com/pathfinder.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "spirit_usa",
+    "mission_name": "Spirit (MER-A)",
+    "mission_type": "rover",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "2003-06-10", "launch_vehicle": "Delta II", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "2004-01-04",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Gusev Crater", "latitude": -14.57, "longitude": 175.48 }
+    },
+    "status": { "state": "completed", "reason": "Communication lost" },
+    "duration": { "start": "2004-01-04", "end": "2010-03-22", "total_days": 2269 },
+    "operations": ["Geological analysis", "Past water investigation"],
+    "summary": "Spirit greatly exceeded its planned mission duration.",
+    "images": ["https://example.com/spirit.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "opportunity_usa",
+    "mission_name": "Opportunity (MER-B)",
+    "mission_type": "rover",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "2003-07-07", "launch_vehicle": "Delta II", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "2004-01-25",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Meridiani Planum", "latitude": -1.95, "longitude": 354.47 }
+    },
+    "status": { "state": "completed", "reason": "Energy loss due to dust storm" },
+    "duration": { "start": "2004-01-25", "end": "2018-06-10", "total_days": 5111 },
+    "operations": ["Evidence of ancient water", "Long-distance rover traverse"],
+    "summary": "Longest-lasting Mars rover mission in history.",
+    "images": ["https://example.com/opportunity.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "curiosity_usa",
+    "mission_name": "Curiosity (MSL)",
+    "mission_type": "rover",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "2011-11-26", "launch_vehicle": "Atlas V", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "2012-08-06",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Gale Crater", "latitude": -5.4, "longitude": 137.8 }
+    },
+    "status": { "state": "active", "reason": "Operational" },
+    "duration": { "start": "2012-08-06", "end": null, "total_days": 4500 },
+    "operations": ["Habitability assessment", "Organic molecule detection"],
+    "summary": "Curiosity studies Mars past climate and habitability.",
+    "images": ["https://example.com/curiosity.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "perseverance_usa",
+    "mission_name": "Perseverance",
+    "mission_type": "rover",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "2020-07-30", "launch_vehicle": "Atlas V", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "2021-02-18",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Jezero Crater", "latitude": 18.44, "longitude": 77.45 }
+    },
+    "status": { "state": "active", "reason": "Operational" },
+    "duration": { "start": "2021-02-18", "end": null, "total_days": 1400 },
+    "operations": ["Sample caching", "Astrobiology", "MOXIE experiment"],
+    "summary": "Perseverance prepares samples for future Mars Sample Return.",
+    "images": ["https://example.com/perseverance.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "ingenuity_usa",
+    "mission_name": "Ingenuity",
+    "mission_type": "helicopter",
+    "agency": { "name": "NASA", "country": "United States", "flag": "US" },
+    "launch": { "launch_date": "2020-07-30", "launch_vehicle": "Atlas V", "launch_site": "Cape Canaveral" },
+    "arrival": {
+      "arrival_date": "2021-02-18",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Jezero Crater", "latitude": 18.44, "longitude": 77.45 }
+    },
+    "status": { "state": "completed", "reason": "End of mission after multiple flights" },
+    "duration": { "start": "2021-04-19", "end": "2024-01-25", "total_days": 1011 },
+    "operations": ["First powered flight on another planet"],
+    "summary": "Ingenuity proved aerial exploration on Mars is possible.",
+    "images": ["https://example.com/ingenuity.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  },
+  {
+    "id": "hope_uae",
+    "mission_name": "Hope (Al-Amal)",
+    "mission_type": "orbital",
+    "agency": { "name": "UAESA", "country": "United Arab Emirates", "flag": "AE" },
+    "launch": { "launch_date": "2020-07-19", "launch_vehicle": "H-IIA", "launch_site": "Tanegashima" },
+    "arrival": { "arrival_date": "2021-02-09", "arrival_type": "orbit", "landing_site": null },
+    "status": { "state": "active", "reason": "Operational" },
+    "duration": { "start": "2021-02-09", "end": null, "total_days": 1400 },
+    "operations": ["Atmospheric dynamics", "Climate study"],
+    "summary": "First Arab interplanetary mission studying Martian atmosphere.",
+    "images": ["https://example.com/hope.jpg"],
+    "space_geometry": { "orbital": null, "surface": null }
+  },
+  {
+    "id": "exomars_esa",
+    "mission_name": "ExoMars Rosalind Franklin",
+    "mission_type": "rover",
+    "agency": { "name": "ESA", "country": "Europe", "flag": "EU" },
+    "launch": { "launch_date": "2028-09-01", "launch_vehicle": "Ariane 6", "launch_site": "Kourou" },
+    "arrival": {
+      "arrival_date": "2030-03-01",
+      "arrival_type": "landing",
+      "landing_site": { "name": "Oxia Planum", "latitude": 18.2, "longitude": -335.4 }
+    },
+    "status": { "state": "planned", "reason": "In development" },
+    "duration": { "start": null, "end": null, "total_days": null },
+    "operations": ["Subsurface drilling", "Search for biosignatures"],
+    "summary": "European rover designed to search for past life on Mars.",
+    "images": ["https://example.com/rosalind.jpg"],
+    "space_geometry": { "orbital": null, "surface": { "path": [] } }
+  }
+]
+
+
+
