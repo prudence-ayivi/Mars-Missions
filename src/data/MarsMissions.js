@@ -1,3 +1,5 @@
+dataSchema = 
+[
 {
   "id": "unique-string",
   "mission_name": "string",
@@ -20,7 +22,7 @@
       "latitude": number,
       "longitude": number
     }
-  }
+  },
   "status": {
     "state": "active | completed | failed | lost | planned",
     "reason": "string"
@@ -53,3 +55,5 @@
     }
   }
 }
+
+]
