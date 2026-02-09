@@ -22,12 +22,12 @@ const Simulation = () => {
     });
 
     simulation.createSkybox({
-      textureUrl: '../public/galaxy_starfield.png'
+      textureUrl: '../spacekit/galaxy_starfield.png'
     });
 
     // Add Mars 
     simulation.createSphere("Mars", {
-      textureUrl: "../public/mars_1k_color.jpg",
+      textureUrl: "../spacekit/mars_1k_color.jpg",
       radius: 1.2, 
       debug: {
         showAxes: false,
