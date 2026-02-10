@@ -19,9 +19,9 @@ export default function MissionsPanel({ onClose }) {
               alt={m.mission_name}
             />
             <div>
-              <div style={{fontWeight:700}}>{m.mission_name}</div>
+              <div className="font-bold text-white">{m.mission_name}</div>
               <div className="muted">{m.agency?.name}</div>
-              <p style={{margin:6,fontSize:13,color:'#d7e0e8'}}>{m.summary}</p>
+              <p className="mt-1 text-sm text-slate-200">{m.summary}</p>
             </div>
           </div>
         ))}
